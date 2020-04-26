@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <Button
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/utube"
+        android:onClick="play" />
+
+    <Button
+        android:layout_width="123dp"
+        android:layout_height="95dp"
+        android:background="@drawable/spotify"
+        android:onClick="spotify" />
+
+    <Button
+        android:layout_width="123dp"
+        android:layout_height="82dp"
+        android:background="@drawable/whatsapp"
+        android:onClick="whatsapp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="?attr/colorButtonNormal"
+        android:textSize="30dp"
+        android:text="click on links above." />
+
+
+
+</LinearLayout>
